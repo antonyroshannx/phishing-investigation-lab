@@ -57,9 +57,29 @@ Evidence
 
 Screenshots and investigation evidence are stored in the evidence/ directory.
 
-Conclusion
+## Final Result
 
-This lab demonstrates a basic phishing investigation workflow from initial URL analysis through IOC documentation and MITRE ATT&CK mapping. It is intended as a cybersecurity learning and portfolio project.
+The simulated phishing email and its embedded URL were investigated using email-header analysis, VirusTotal, URLScan.io, WHOIS, DNS reconnaissance with `dig`, and SSL/TLS certificate inspection with OpenSSL.
+
+The investigation did **not identify any confirmed malicious activity or definitive indicators of compromise** from the available evidence. The tools and analysis were used to examine the email, URL, domain, DNS records, certificate information, and related indicators.
+
+The results demonstrate a structured workflow for investigating a potentially suspicious email while distinguishing between **suspicious characteristics and confirmed malicious findings**.
+
+### Investigation Outcome
+
+* Phishing email analyzed
+* Email authentication headers reviewed
+* Suspicious URL investigated
+* Domain and DNS information collected
+* SSL/TLS certificate examined
+* IOCs reviewed and documented
+* MITRE ATT&CK mapping performed where applicable
+* **No confirmed malicious indicators identified**
+* Sensitive personal information redacted
+
+> **Note:** This project was conducted as a controlled educational simulation. The absence of confirmed malicious findings does not guarantee that an artifact is completely safe; it indicates that no definitive malicious activity was identified during the scope and methods of this investigation.
+
+
 
 Disclaimer
 
